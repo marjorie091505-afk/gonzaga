@@ -1,12 +1,13 @@
 body {
-    background-color: rgb(221, 91, 112);
+    background-color: rgb(112, 31, 45);
     color:pink;
+    text-align: center;
     
 
 }
 
 h2 {
-    color: rgb(0, 255, 179);
+    color:rgb(196, 83, 102) (0, 255, 179);
     font: bold;
     font-family: Times New Roman, sans-serif;
 }
@@ -28,11 +29,39 @@ header {
     background-color: pink;
     text-align: center;
     padding: 10px;
+    outline: 2px solid rgb(99, 187, 245);
+
+
 
 }
 
- main{
+ p{
     background-color: rgb(219, 73, 121);
+    weight: 400;
+    padding: 10px;
+    margin: 50px;
+    section{
+        border: 2px solid color;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+        outline: 50px rgb(173, 92, 106);
+     }
+    }
+.about{
+    color: rgb(85, 154, 233);
+}
+
+.services{
+    color: rgb(121, 34, 148);
 
 
- }
+
+
+    
+    
+
+}
+
+
+ 
