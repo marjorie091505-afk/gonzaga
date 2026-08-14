@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(221, 91, 112);
+    color:pink;
+    
+
+}
+
+h2 {
+    color: rgb(0, 255, 179);
+    font: bold;
+    font-family: Times New Roman, sans-serif;
+}
+ nav a {
+    list-style-type: none;
+ }
+
+ nav ul {
+    font-size: 30px;
+ }
+    
+body {
+    font-size: 20px;
+}
+   
+
+header {
+    padding: 5px;
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+
+}
+
+ main{
+    background-color: rgb(219, 73, 121);
+
+
+ }
