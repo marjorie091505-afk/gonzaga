@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const students = [
+    {
+        name: "Juan",
+        age: 18,
+        course: "BSIT",
+        grade: 92
+    },
+    {
+        name: "Maria",
+        age: 19,
+        course: "BSCS",
+        grade: 85
+    },
+    {
+        name: "Pedro",
+        age: 18,
+        course: "BSIT",
+        grade: 74
+    },
+    {
+        name: "Ana",
+        age: 20,
+        course: "BSIS",
+        grade: 65
+    },
+    {
+        name: "Marjorie",
+        age: 20,
+        course: "BSIS",
+        grade: 93
+    },
+    {
+        name: "Jeremias",
+        age: 20,
+        course: "BSIS",
+        grade: 95
+    }
+];
+
+// task 1
+console.log ("name " + students [1].name )
+console.log ("age " + students [1].age )
+console.log ("course " + students [1].course)
+console.log ("grade " + students [1].grade) ;
+
+
+
+// task 2
+function getStatus(grade) {
+    if ( grade >=90 && grade <=100) {
+    return "excellent";
+    } else if (grade >=75 && grade <=89){
+    return "passed";
+    } else (grade <75)
+    return "failed";
+}
+console.log(getStatus(95));
+console.log(getStatus(80));
+console.log(getStatus(70));
+
+
+// task 3
+for (let i = 0; i < students.length; i++) {
+    const student = students[i];
+    const status = getStatus(students[i].grade);
+console.log(student.name + "  " + student.course + "  " + student.grade + "  " + status) 
+}
+
+
+
+
+
+// task 4
+const getMessage = (name, status) => {
+    return name + " is an " + status + " students. "
+};
+console.log(getMessage("Juan", " Excellent "));
+
+
+
+// task 5 
+for (let i = 0; i < students.length; i++) {
+console.log ("______________________________________________________")
+console.log ("name: " + (students[i]).name + " " );
+console.log ("course: "  +  (students[i]).course + " " );
+console.log ("grade: " + (students[i]).grade + " " );
+console.log ("status: " + (getStatus(students[i].grade + " " )));
+
+
+
+}
+
+
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>
