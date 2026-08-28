@@ -74,11 +74,11 @@ nav a{
     transition: color 0.5s ease;
 }
 nav a:hover{
-    color: rgb(230, 86, 110) ;
+    color: pink ;
 }
 
 button{
-    transition: backgroud-color 1.0s ease; 
+    transition: background-color 1.0s ease; 
     background-color:black;
     color: white;
     border-radius: 10px;
@@ -86,12 +86,11 @@ button{
     padding: 12px 24px;
 }
 button:hover{
-     
+    
     background-color: pink;
     color: black
+
 }
-
-
 
 
 
