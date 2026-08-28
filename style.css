@@ -26,14 +26,14 @@ main{
 
 main section{
     flex: 1;
-    min-width: 280px;
+    min-width: 400px;
     border: 2px solid black;
     padding: 30px;
 }
 form{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 #services{
     padding: 20px ;
