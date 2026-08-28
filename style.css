@@ -1,68 +1,47 @@
-body {
-    background-color: rgb(112, 31, 45);
-    color:pink;
+body{
     text-align: center;
-    
-    
-
+}
+ul{
+    list-style:none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+nav ul{
+    display: flex;
+    gap: 20px;
 }
 
-h2 {
-    color:rgb(196, 83, 102) (0, 255, 179);
-    font: bold;
-    font-family: Times New Roman, sans-serif;
-}
- nav a {
-    list-style-type: none;
- }
-
- nav ul {
-    font-size: 30px;
- }
-    
-body {
-    font-size: 20px;
-}
-   
-
-header {
-    padding: 5px;
-    background-color: pink;
-    text-align: center;
-    padding: 10px;
-    outline: 2px solid rgb(99, 187, 245);
-
-
-
-}
-
- p{
-    background-color: rgb(219, 73, 121);
-    weight: 400;
-    padding: 10px;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px; 
     margin: 50px;
-    section{
-        border: 2px solid color;
-        padding: 5px;
-        margin-top: 5px;
-        text-align: center;
-        outline: 50px rgb(173, 92, 106);
-     }
-    }
-.about{
-    color: rgb(85, 154, 233);
 }
 
-.services{
-    color: rgb(121, 34, 148);
-
-
-
-
+main section{
+    flex: 1;
+    min-width: 280px;
+    border: 2px solid black;
+    padding: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#services{
+    padding: 20px ;
+}
     
     
 
-}
+
 
 
  
