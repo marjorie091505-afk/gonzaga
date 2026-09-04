@@ -13,4 +13,15 @@ console.log(`age: ${age}`);
 console.log(`number: ${number}`);
 console.log(`address: ${address}`);
 console.log(67);
+ 
+function greet(greetings, names = []){
+    if (Array.isArray (names)){
+        names = names.join(",");
+    
+    return `${greetings} sa inyo ${names}`;
+} 
+}
+
+console.log(greet("mayung aga" , ["guian", "jere", "dy", "marjorie"] ));
+
 
