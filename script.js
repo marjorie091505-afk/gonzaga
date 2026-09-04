@@ -25,6 +25,7 @@ function greet(greetings, names = []){
 console.log(greet("mayung aga" , ["guian", "jere", "dy", "marjorie"] ));
 
 const heading =  document.querySelector("h1");
+heading.textContent = "Joeffer Gonzaga"
 console.log(heading); 
 
  const contactHeading = document.querySelector("#contact form");
