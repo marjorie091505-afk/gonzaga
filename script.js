@@ -26,6 +26,9 @@ console.log(greet("mayung aga" , ["guian", "jere", "dy", "marjorie"] ));
 
 const heading =  document.querySelector("h1");
 heading.textContent = "Joeffer Gonzaga"
+heading.style.color = "pink";
+heading.style.backgroundColor = "black";
+heading.style.fontSize = "50px";
 console.log(heading); 
 
  const contactHeading = document.querySelector("#contact form");
